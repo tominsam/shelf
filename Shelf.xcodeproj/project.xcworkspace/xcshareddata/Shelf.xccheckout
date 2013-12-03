@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>536A0D88-3C0B-4A48-827A-1F86B47C0E5E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Shelf</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>87533B7F-7D28-43C9-9289-3FD1E2D17BEB</key>
+		<string>ssh://github.com/tominsam/shelf.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Shelf/Shelf.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>87533B7F-7D28-43C9-9289-3FD1E2D17BEB</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/tominsam/shelf.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>87533B7F-7D28-43C9-9289-3FD1E2D17BEB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>87533B7F-7D28-43C9-9289-3FD1E2D17BEB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>shelf</string>
+		</dict>
+	</array>
+</dict>
+</plist>
