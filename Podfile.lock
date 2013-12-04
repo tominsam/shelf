@@ -1,0 +1,16 @@
+PODS:
+  - GRMustache (6.8.3):
+    - JRSwizzle (~> 1.0)
+  - JRSwizzle (1.0)
+  - MagicalRecord (2.2)
+
+DEPENDENCIES:
+  - GRMustache (~> 6.8.3)
+  - MagicalRecord (~> 2.2)
+
+SPEC CHECKSUMS:
+  GRMustache: 90fc77ae45a5b8b5a4cf13874cae811461a1c930
+  JRSwizzle: 6242ff38485d870fc2636899048ee1ab883ae587
+  MagicalRecord: b1fc46c99a9749fe7fe7e6f43a89b62ef5201933
+
+COCOAPODS: 0.28.0

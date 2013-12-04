@@ -1,0 +1,83 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    font-family: "Lucida Grande";
+    font-size: 11px;
+    overflow-x: hidden; /* supress horizontal scrolling */
+    background-color: #dde4eb;
+}
+
+p, img, pre {
+    margin: 5px 0 0 5px;
+}
+
+/*
+  Standard mail.app sidebar colors:
+  #dde4eb - light blue background
+  #a1afce - border-top of selected item (which turns to white text with 1px vertical shadow)
+  #b0bedb - top value of gradient
+  #8194bc - bottom value of gradient
+*/
+
+h3 {
+    padding: 1px 0 1px 5px;
+    margin-top: 10px;
+    border-top: 1px solid a1afce;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#b0bedb), to(#8194bc));
+    white-space: nowrap;
+}
+
+h3 a {
+  color: white;
+  text-shadow: 0px 1px 2px #808080;
+}
+
+h3,p,a {
+  text-decoration: none;
+}
+
+p a {
+  color: black;
+}
+
+h3 a:hover, p a:hover {
+    text-decoration: underline;
+}
+
+h3 img.spinner {
+    margin: 0;
+    padding: 0;
+    float: right;
+    margin-right: 5px;
+}
+
+h3 img.guess {
+    margin: 0;
+    padding: 0;
+    float: right;
+    margin-right: 5px;
+}
+
+img.flickr-image {
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-right: 5px;
+    border: none;
+}
+
+span.feed-date {
+    float: right;
+    color: #444;
+    font-size: 80%;
+    margin-top: 5px;
+}
+    
+p.feed-content {
+    color: #444;
+    font-size: 80%;
+    margin-top: 2px;
+}

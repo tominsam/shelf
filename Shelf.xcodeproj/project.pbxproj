@@ -7,10 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B4744C5107C54D049907972E /* libPods-Shelf.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 651B527BB7DF401C89646271 /* libPods-Shelf.a */; };
+		E677F7F4184E945200BE852F /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E677F7F3184E945200BE852F /* WebKit.framework */; };
+		E677F7FA184E9DCB00BE852F /* Credits.html in Resources */ = {isa = PBXBuildFile; fileRef = E677F7F8184E9DCB00BE852F /* Credits.html */; };
+		E677F807184EA3A600BE852F /* ShelfController.m in Sources */ = {isa = PBXBuildFile; fileRef = E677F806184EA3A600BE852F /* ShelfController.m */; };
+		E677F80E184EA82900BE852F /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E677F80D184EA82900BE852F /* MainWindow.xib */; };
+		E677F810184EAF0E00BE852F /* template.mustache in Resources */ = {isa = PBXBuildFile; fileRef = E677F80F184EAF0E00BE852F /* template.mustache */; };
+		E677F812184EAF4F00BE852F /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = E677F811184EAF4F00BE852F /* style.css */; };
+		E677F818184EB2CD00BE852F /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = E677F817184EB2CD00BE852F /* Person.m */; };
+		E677F81B184EB2CD00BE852F /* Factoid.m in Sources */ = {isa = PBXBuildFile; fileRef = E677F81A184EB2CD00BE852F /* Factoid.m */; };
+		E677F822184F3A0700BE852F /* Watcher.m in Sources */ = {isa = PBXBuildFile; fileRef = E677F821184F3A0700BE852F /* Watcher.m */; };
 		E6F3D8AE184E58640012A5E9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6F3D8AD184E58640012A5E9 /* Cocoa.framework */; };
 		E6F3D8B8184E58640012A5E9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E6F3D8B6184E58640012A5E9 /* InfoPlist.strings */; };
 		E6F3D8BA184E58640012A5E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E6F3D8B9184E58640012A5E9 /* main.m */; };
-		E6F3D8BE184E58640012A5E9 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = E6F3D8BC184E58640012A5E9 /* Credits.rtf */; };
 		E6F3D8C1184E58640012A5E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6F3D8C0184E58640012A5E9 /* AppDelegate.m */; };
 		E6F3D8C4184E58650012A5E9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6F3D8C2184E58640012A5E9 /* MainMenu.xib */; };
 		E6F3D8C7184E58650012A5E9 /* Shelf.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E6F3D8C5184E58650012A5E9 /* Shelf.xcdatamodeld */; };
@@ -18,6 +27,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		41C6057235C6459B894E5F0C /* Pods-Shelf.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shelf.xcconfig"; path = "Pods/Pods-Shelf.xcconfig"; sourceTree = "<group>"; };
+		651B527BB7DF401C89646271 /* libPods-Shelf.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Shelf.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E677F7F3184E945200BE852F /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		E677F7F9184E9DCB00BE852F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = en; path = en.lproj/Credits.html; sourceTree = "<group>"; };
+		E677F805184EA3A600BE852F /* ShelfController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShelfController.h; sourceTree = "<group>"; };
+		E677F806184EA3A600BE852F /* ShelfController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShelfController.m; sourceTree = "<group>"; };
+		E677F80D184EA82900BE852F /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		E677F80F184EAF0E00BE852F /* template.mustache */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = template.mustache; sourceTree = "<group>"; };
+		E677F811184EAF4F00BE852F /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
+		E677F816184EB2CD00BE852F /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		E677F817184EB2CD00BE852F /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		E677F819184EB2CD00BE852F /* Factoid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Factoid.h; sourceTree = "<group>"; };
+		E677F81A184EB2CD00BE852F /* Factoid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Factoid.m; sourceTree = "<group>"; };
+		E677F820184F3A0700BE852F /* Watcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Watcher.h; sourceTree = "<group>"; };
+		E677F821184F3A0700BE852F /* Watcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Watcher.m; sourceTree = "<group>"; };
 		E6F3D8AA184E58640012A5E9 /* Shelf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shelf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6F3D8AD184E58640012A5E9 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		E6F3D8B0184E58640012A5E9 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -27,7 +51,6 @@
 		E6F3D8B7184E58640012A5E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E6F3D8B9184E58640012A5E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E6F3D8BB184E58640012A5E9 /* Shelf-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Shelf-Prefix.pch"; sourceTree = "<group>"; };
-		E6F3D8BD184E58640012A5E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		E6F3D8BF184E58640012A5E9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E6F3D8C0184E58640012A5E9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E6F3D8C3184E58650012A5E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
@@ -41,19 +64,70 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E677F7F4184E945200BE852F /* WebKit.framework in Frameworks */,
 				E6F3D8AE184E58640012A5E9 /* Cocoa.framework in Frameworks */,
+				B4744C5107C54D049907972E /* libPods-Shelf.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E677F813184EAF5300BE852F /* HTML */ = {
+			isa = PBXGroup;
+			children = (
+				E677F80F184EAF0E00BE852F /* template.mustache */,
+				E677F811184EAF4F00BE852F /* style.css */,
+			);
+			name = HTML;
+			sourceTree = "<group>";
+		};
+		E677F814184EAFBA00BE852F /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				E677F805184EA3A600BE852F /* ShelfController.h */,
+				E677F806184EA3A600BE852F /* ShelfController.m */,
+				E6F3D8C2184E58640012A5E9 /* MainMenu.xib */,
+				E677F80D184EA82900BE852F /* MainWindow.xib */,
+			);
+			name = GUI;
+			sourceTree = "<group>";
+		};
+		E677F815184EAFCB00BE852F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E6F3D8C5184E58650012A5E9 /* Shelf.xcdatamodeld */,
+				E677F819184EB2CD00BE852F /* Factoid.h */,
+				E677F81A184EB2CD00BE852F /* Factoid.m */,
+				E677F816184EB2CD00BE852F /* Person.h */,
+				E677F817184EB2CD00BE852F /* Person.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		E677F81E184F39B500BE852F /* Information */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Information;
+			sourceTree = "<group>";
+		};
+		E677F81F184F39BD00BE852F /* Context */ = {
+			isa = PBXGroup;
+			children = (
+				E677F820184F3A0700BE852F /* Watcher.h */,
+				E677F821184F3A0700BE852F /* Watcher.m */,
+			);
+			name = Context;
+			sourceTree = "<group>";
+		};
 		E6F3D8A1184E58640012A5E9 = {
 			isa = PBXGroup;
 			children = (
 				E6F3D8B3184E58640012A5E9 /* Shelf */,
 				E6F3D8AC184E58640012A5E9 /* Frameworks */,
 				E6F3D8AB184E58640012A5E9 /* Products */,
+				41C6057235C6459B894E5F0C /* Pods-Shelf.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,9 +142,11 @@
 		E6F3D8AC184E58640012A5E9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E677F7F3184E945200BE852F /* WebKit.framework */,
 				E6F3D8AD184E58640012A5E9 /* Cocoa.framework */,
 				E6F3D8CF184E58650012A5E9 /* XCTest.framework */,
 				E6F3D8AF184E58640012A5E9 /* Other Frameworks */,
+				651B527BB7DF401C89646271 /* libPods-Shelf.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -90,9 +166,12 @@
 			children = (
 				E6F3D8BF184E58640012A5E9 /* AppDelegate.h */,
 				E6F3D8C0184E58640012A5E9 /* AppDelegate.m */,
-				E6F3D8C2184E58640012A5E9 /* MainMenu.xib */,
+				E677F815184EAFCB00BE852F /* Models */,
+				E677F81F184F39BD00BE852F /* Context */,
+				E677F81E184F39B500BE852F /* Information */,
+				E677F814184EAFBA00BE852F /* GUI */,
+				E677F813184EAF5300BE852F /* HTML */,
 				E6F3D8C8184E58650012A5E9 /* Images.xcassets */,
-				E6F3D8C5184E58650012A5E9 /* Shelf.xcdatamodeld */,
 				E6F3D8B4184E58640012A5E9 /* Supporting Files */,
 			);
 			path = Shelf;
@@ -105,7 +184,7 @@
 				E6F3D8B6184E58640012A5E9 /* InfoPlist.strings */,
 				E6F3D8B9184E58640012A5E9 /* main.m */,
 				E6F3D8BB184E58640012A5E9 /* Shelf-Prefix.pch */,
-				E6F3D8BC184E58640012A5E9 /* Credits.rtf */,
+				E677F7F8184E9DCB00BE852F /* Credits.html */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -117,9 +196,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E6F3D8DE184E58650012A5E9 /* Build configuration list for PBXNativeTarget "Shelf" */;
 			buildPhases = (
+				A6DD5FEA67904D91BDE67DF7 /* Check Pods Manifest.lock */,
 				E6F3D8A6184E58640012A5E9 /* Sources */,
 				E6F3D8A7184E58640012A5E9 /* Frameworks */,
 				E6F3D8A8184E58640012A5E9 /* Resources */,
+				36692B0BEAF148F490E0B759 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -163,13 +244,49 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6F3D8B8184E58640012A5E9 /* InfoPlist.strings in Resources */,
+				E677F810184EAF0E00BE852F /* template.mustache in Resources */,
+				E677F812184EAF4F00BE852F /* style.css in Resources */,
+				E677F80E184EA82900BE852F /* MainWindow.xib in Resources */,
 				E6F3D8C9184E58650012A5E9 /* Images.xcassets in Resources */,
-				E6F3D8BE184E58640012A5E9 /* Credits.rtf in Resources */,
 				E6F3D8C4184E58650012A5E9 /* MainMenu.xib in Resources */,
+				E677F7FA184E9DCB00BE852F /* Credits.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		36692B0BEAF148F490E0B759 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-Shelf-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6DD5FEA67904D91BDE67DF7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E6F3D8A6184E58640012A5E9 /* Sources */ = {
@@ -177,7 +294,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6F3D8C7184E58650012A5E9 /* Shelf.xcdatamodeld in Sources */,
+				E677F822184F3A0700BE852F /* Watcher.m in Sources */,
 				E6F3D8C1184E58640012A5E9 /* AppDelegate.m in Sources */,
+				E677F818184EB2CD00BE852F /* Person.m in Sources */,
+				E677F807184EA3A600BE852F /* ShelfController.m in Sources */,
+				E677F81B184EB2CD00BE852F /* Factoid.m in Sources */,
 				E6F3D8BA184E58640012A5E9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -185,20 +306,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		E677F7F8184E9DCB00BE852F /* Credits.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E677F7F9184E9DCB00BE852F /* en */,
+			);
+			name = Credits.html;
+			sourceTree = "<group>";
+		};
 		E6F3D8B6184E58640012A5E9 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				E6F3D8B7184E58640012A5E9 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		E6F3D8BC184E58640012A5E9 /* Credits.rtf */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E6F3D8BD184E58640012A5E9 /* en */,
-			);
-			name = Credits.rtf;
 			sourceTree = "<group>";
 		};
 		E6F3D8C2184E58640012A5E9 /* MainMenu.xib */ = {
@@ -282,6 +403,7 @@
 		};
 		E6F3D8DF184E58650012A5E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41C6057235C6459B894E5F0C /* Pods-Shelf.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -295,6 +417,7 @@
 		};
 		E6F3D8E0184E58650012A5E9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41C6057235C6459B894E5F0C /* Pods-Shelf.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;

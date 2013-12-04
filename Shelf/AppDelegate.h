@@ -7,15 +7,12 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "ShelfController.h"
+#import "Watcher.h"
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
-@property (assign) IBOutlet NSWindow *window;
-
-@property (readonly, strong, nonatomic) NSPersistentStoreCoordinator *persistentStoreCoordinator;
-@property (readonly, strong, nonatomic) NSManagedObjectModel *managedObjectModel;
-@property (readonly, strong, nonatomic) NSManagedObjectContext *managedObjectContext;
-
-- (IBAction)saveAction:(id)sender;
+@property (nonatomic, strong) ShelfController *shelfController;
+@property (nonatomic, strong) Watcher *watcher;
 
 @end
